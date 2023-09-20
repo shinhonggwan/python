@@ -11,3 +11,9 @@ def invert(lst):
         i = (-(i))
         new.append(i)
     return new
+
+"you can also do
+
+def invert(lst):
+    return [-x for x in lst]
+"
